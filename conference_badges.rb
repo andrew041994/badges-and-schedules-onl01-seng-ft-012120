@@ -1,6 +1,6 @@
 # Write your code here.
 
 def badge_maker(attendees)
-  pp attendees
+  puts attendees
 
 end
