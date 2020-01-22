@@ -19,7 +19,13 @@ def assign_rooms(attendees)
  room_assignments
 end
 
-def printer(badges)
+def printer(badges, room_assignments)
 badges=batch_badge_creator(attendees)
-puts badges
+room_assignments= assign_rooms(attendees)
+i=0
+while i < badges.size
+  puts badges[i]
+  
+end
+
 end
