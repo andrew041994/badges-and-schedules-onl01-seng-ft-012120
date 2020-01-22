@@ -14,8 +14,15 @@ def assign_rooms(attendees)
   room_assignments=[]
   count=1
   attendees.each_with_index do|name| room_assignments << "Hello, #{name}! You'll be assigned to room #{count}!"
-    count+=1
-  end
-  room_assignments
+                              count+=1
+                            end
+ room_assignments
+end
 
+def printer(batch_badge_message,room_assignments)
+  batch_badge_message=batch_badge_creator(attendees)
+  room_assignments=assign_rooms(attendees)
+  
+  
+  
 end
