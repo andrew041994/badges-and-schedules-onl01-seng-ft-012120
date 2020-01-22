@@ -25,7 +25,7 @@ room_assignments= assign_rooms(attendees)
 i=0
 while i < badges.size
   puts badges[i]
-  
+
 end
 
 end
