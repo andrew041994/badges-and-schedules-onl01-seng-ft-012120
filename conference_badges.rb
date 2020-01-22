@@ -22,5 +22,11 @@ end
 def printer(messages)
   messages=batch_badge_creator(attendees)
   messages=assign_rooms(attendees)
-  puts messages
+  i=0
+  while i < messages.size
+    puts messages
+
+    i+=1    
+  end
+  
 end
