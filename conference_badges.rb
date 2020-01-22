@@ -22,6 +22,12 @@ end
 def printer(batch_badge_message,room_assignments)
   batch_badge_message=batch_badge_creator(attendees)
   room_assignments=assign_rooms(attendees)
+  results=[]
+  i=0
+  while i < batch_badge_message.size
+    results << batch_badge_message[i],room_assignments[i]
+    i+=0    
+  end
 
 
 
