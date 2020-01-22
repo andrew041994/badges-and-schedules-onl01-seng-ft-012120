@@ -26,15 +26,15 @@ badges_and_room_assignments=[]
 #pp badges_and_room_assignments
 i=0
   while i < attendees.size
-      badges_and_room_assignments << badges[1]
+      puts badges[1]
       i+=1
   end
-  while i < attendees.size
-    badges_and_room_assignments << room_assignments[i]
-    i+=1
-  end
-  while i < badges_and_room_assignments.size
-    puts badges_and_room_assignments[i]
-    i+=1
-  end
+#  while i < attendees.size
+##    badges_and_room_assignments << room_assignments[i]
+  #  i+=1
+  #end
+#while i < badges_and_room_assignments.size
+#    puts badges_and_room_assignments[i]
+#    i+=1
+#  end
 end
