@@ -33,5 +33,8 @@ i=0
     badges_and_room_assignments << room_assignments[i]
     i+=1
   end
-  badges_and_room_assignments
+  while i < badges_and_room_assignments.size
+    puts badges_and_room_assignments[i]
+    i+=1    
+  end
 end
