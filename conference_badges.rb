@@ -27,5 +27,9 @@ while i < badges.size
   puts badges[i]
   i+=1
 end
+while i<room_assignments.size
+  puts room_assignments[i]
+  i+=1
+end
 
 end
