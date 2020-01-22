@@ -22,5 +22,5 @@ end
 def printer()
 badges=batch_badge_creator(attendees)
 room= assign_rooms(attendees)
-print badges
+puts badges
 end
