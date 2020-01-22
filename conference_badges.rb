@@ -26,7 +26,7 @@ def printer(messages)
   while i < messages.size
     puts messages
 
-    i+=1    
+    i+=1
   end
-  
+
 end
