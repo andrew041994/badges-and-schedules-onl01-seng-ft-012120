@@ -5,9 +5,9 @@ def badge_maker(name)
 end
 
 def batch_badge_creator (attendees)
-  batch_badge_message=[]
-  attendees.each { |name|batch_badge_message << "Hello, my name is #{name}."  }
-  batch_badge_message
+  badges=[]
+  attendees.each { |name|badges << "Hello, my name is #{name}."  }
+  badges
 end
 
 def assign_rooms(attendees)
