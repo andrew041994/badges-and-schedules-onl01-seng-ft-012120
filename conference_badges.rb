@@ -16,5 +16,5 @@ def assign_rooms(attendees)
   attendees.each { |name| room_assignments << "Hello, #{name}! You'll be assigned to room #{count}!"  }
   count+=1
   room_assignments
-  
+
 end
