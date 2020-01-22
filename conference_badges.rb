@@ -24,7 +24,7 @@ def printer(messages)
   messages=assign_rooms(attendees)
   i=0
   while i < messages.size
-    puts messages
+    puts messages[i]
 
     i+=1
   end
