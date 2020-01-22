@@ -26,4 +26,5 @@ while i < attendees.size
   badges_and_room_assignments<<badges[i]
   i+=1
 end
+badges_and_room_assignments
 end
