@@ -25,5 +25,6 @@ def printer(badges,room_assignments)
   room_assignments=assign_rooms(attendees)
   badges_and_room_assignments << badges
   badges_and_room_assignments << room_assignments
+  puts badges_and_room_assignments
 
 end
