@@ -35,6 +35,6 @@ i=0
   end
   while i < badges_and_room_assignments.size
     puts badges_and_room_assignments[i]
-    i+=1    
+    i+=1
   end
 end
