@@ -19,6 +19,6 @@ def assign_rooms(attendees)
  room_assignments
 end
 
-def printer(badges,room_assignments)
+def printer
 puts batch_badge_creator(attendees)
 end
