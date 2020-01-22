@@ -23,7 +23,7 @@ def printer(attendees)
 badges_and_room_assignments=[]
 i=0
 while i < attendees.size
-  badges_and_room_assignments<<badges[i]
+  puts badges[i]
   i+=1
 end
 end
