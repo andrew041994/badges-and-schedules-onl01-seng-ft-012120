@@ -22,4 +22,5 @@ end
 def printer(messages)
   messages=batch_badge_creator(attendees)
   messages=assign_rooms(attendees)
+  puts messages
 end
